@@ -17,7 +17,7 @@ function VitePluginStaticSourceRequire() {
         // 匹配静态资源正则
         const requireReg = /(?<=(\srequire\(\'))([^']*)(?=(\'\)))/g
 
-        // 静态资源字符 @/assets/images/goodStart/rank3.png
+        // 静态资源字符 @/assets/images/xxxx/rank3.png
         const urlArr = code.match(requireReg)
 
         // 生成静态资源文件名
